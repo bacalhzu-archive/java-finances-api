@@ -1,0 +1,9 @@
+services:
+    database:
+        image: postgres
+        environment:
+            POSTGRES_USER: littlesekii
+            POSTGRES_PASSWORD: 123
+            POSTGRES_DB: DBFinances
+        ports:
+            - 1432:5432
